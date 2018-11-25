@@ -1,21 +1,10 @@
 import numpy
 from tools import *
 
+## Exercise 1 - It's all about 3D Workshop
 
-'''
-Exercise 1
+vertices = np.array([[0,0,0], [1,0,0]], dtype=np.float16)
+faces = np.array([[0,1,1]], dtype=np.uint8)
 
-Write a down the vertices and faces of a cube as given in the picture
-'''
-
-
-
-vertices = np.array([[0,0,0],
-                     [1,0,0],
-                     [0,1,0],
-                     [1,1,0]])
-
-faces = np.array([[0,1,3],
-                  [3,2,0]])
-
+# Check your result with a 3d print of the vertices and edges
 print_3d_mesh(vertices, faces)
