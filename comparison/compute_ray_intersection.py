@@ -4,6 +4,7 @@ import time
 
 mesh = trimesh.load("test.ply")
 
+print("Number of faces = "+str(np.shape(mesh.vertices)[0]))
 print("Number of faces = "+str(np.shape(mesh.faces)[0]))
 
 origin = np.mean(mesh.vertices, axis=0)
