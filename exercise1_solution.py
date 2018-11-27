@@ -11,6 +11,7 @@ vertices = np.array([[0,0,0],
                      [1,0,1],
                      [1,1,1],
                      [0,1,1]], dtype=np.float16)
+                     
 faces = np.array([[0,2,1], # bottom
                   [0,3,2],
                   [4,0,5], # back
