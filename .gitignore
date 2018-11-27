@@ -2,3 +2,4 @@
 __pychache__/*
 comparison/*.ply
 *.pyc
+.DS_Store
